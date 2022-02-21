@@ -1,4 +1,29 @@
 body{
     background-color: black;
-
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .vid{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .stickylog{
+      text-align: center;
+    background-color: black;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .weareback{
+      text-align: center;
+      color: white;
+  }
